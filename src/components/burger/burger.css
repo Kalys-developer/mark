@@ -1,0 +1,120 @@
+.menu-btn{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 2;
+    left: 85%; 
+    top:0px;
+    display: none;
+     
+}
+@media (max-width:650px) {
+    .menu-btn{
+        display: block;
+    }
+}
+
+.menu-btn span{  
+    width: 30px;
+    height: 2px;
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    /* background-color:#ffff; */
+    transform: translate(-50%, - 50%);
+}
+.menu-item{
+margin: 0 0 20px 6%;
+list-style-type: none;
+color: #02226C;
+}
+
+
+.bm-burger-button{
+    width: 40px !important;
+    height: 0px !important;
+   color:#02226C;
+    display: none;
+    
+}
+.bm-burger-button span:first-of-type{
+    left:88% !important;
+    top:calc(36% - 0px) !important;
+    
+   
+   }
+.bm-burger-button span:nth-of-type(2) {
+    top:calc(45% - 0px) !important;
+    
+    left:88% !important;
+}
+.bm-burger-button span:nth-of-type(3) {
+    top:calc(53.5% - 0px) !important;
+    
+    left:88.2% !important;
+    width: 20px !important;
+}
+
+@media (max-width:630px) {
+    .bm-burger-button{
+        display: block;
+        cursor: pointer;
+        
+        
+    }
+}
+.bm-overlay{
+    left:0px !important;
+    top: 0;
+    }
+.bm-burger-bars{
+    background-color: white!important;
+   width: 30px !important;
+   height: 3px !important;
+   
+   
+   
+     
+     
+} 
+.bm-menu-wrap{
+background-color: #fff;
+width: 100% !important;
+height: 100%;
+top: 0 !important;
+
+
+}
+.menu-icon{
+    margin: 20px 0 0px -2%;
+    color:#02226C !important
+}
+.bm-cross-button{
+    width: 30px !important;
+    height: 30px !important;
+    right: 20px !important;
+    top: 25px !important;  
+}
+.bm-cross{
+    background-color: green;
+    width: 30px !important;
+    height: 3px !important;
+    right: -12px !important;
+    top: 7px !important; 
+}
+.menu-item{
+    text-decoration: none;
+    font-size: 17px !important;
+}
+#about{
+    margin-top: 170px !important; 
+    
+}
+#contact{
+    margin-top: 110px !important; 
+}
+.menu-item--small{
+margin-left: 30px !important;
+text-decoration: none;
+}

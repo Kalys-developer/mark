@@ -1,0 +1,64 @@
+.section{
+    display: flex;
+    
+   
+}
+.section-img{
+    padding: 89px 0 0 120px;
+}
+.img{
+    margin-left:7px;
+}
+.img1{
+    margin-bottom: 27px;
+    margin-left:-2px;
+}
+
+.sectinon-title{
+    width: 651px;
+height: 106px;
+margin-left: 100px;
+margin-top: 215px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 53px;
+color: #FFFFFF;
+}
+.section-text{
+    width: 489px;
+height: 80px;
+margin:28px 0 32px 100px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 120%;
+color: #ffff;
+}
+.section-btn{
+    width: 260px;
+height: 50px;
+margin-left: 100px;
+background: #046BAD;
+border-radius: 8px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 23px;
+color: #FFFFFF;
+border: none;
+
+}
+.btn{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* .img-arrow{
+    margin:115px 0 0 350px;
+}
+.img-arrow1{
+    margin:50px 0 0 350px;
+} */

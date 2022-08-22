@@ -1,0 +1,242 @@
+
+
+.header{    
+    height: 100px;
+    width: 92%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    padding-left: 8%;
+}
+.wrapper{
+    width: 85%;
+    margin-left:0%;
+}
+.header-nav{    
+    height: 100px;    
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-text{
+    list-style-type:none;
+    text-decoration: none;
+   margin-right: 30px;
+    color: #fff;
+    font-size: 14px;
+}
+.nav-img{
+    display:none;
+    
+    
+   
+}
+.nav-img2{
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background-color: #fff;
+}
+.nav-img3{
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    
+}
+
+
+ /* menu */
+ .manu-body{
+    display:none;
+}
+
+ .manu-icon{
+    display: none;
+    width: 30px;
+    height: 18px;
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+    background-color:transparent;
+    border:none;
+
+ }
+ .burger-line{
+    position: absolute;
+    width: 100%;
+    top:calc(50% -1px);
+    left: 0;
+    height: 2px;
+    background-color: #fff;
+ }
+ .burger-line:first-child{
+    top: 0;
+ }
+ .burger-line:last-child{
+  top: auto;
+  bottom: 0;
+ }
+ 
+
+
+
+.manu-list{
+    list-style-type: none;
+    gap: 30px;
+}
+.manu-link{
+    text-decoration: none;
+    color: #fff;
+   
+}
+.active{
+    left: 0;
+}
+@media (max-width:1024) {
+    .manu-body{
+        display: block;
+        position:absolute;
+        left: -100%;
+        top: 0%;
+        height: 100vh;
+        width: 100%;
+        background-color:red;
+     }
+    .manu-list{
+        flex-direction: column;
+        gap:0;
+        margin:0 auto;
+
+     }
+     .manu-link{
+        display: block;
+        font-size: 30px;
+        line-height: 70px;
+
+     }
+     .manu-icon{
+        display: inline-block;
+     }
+    
+}
+
+/* burger */
+
+
+
+@media(max-width:1024px){  
+    .header{    
+        height: 100px;
+        width: 100%;
+        padding-left: 0%;
+        background-color:transparent !important;
+        position: absolute;       
+    }
+    .wrapper{
+       width: 85%;
+        margin:0 0% 0 5%;        
+    }   
+     
+    
+    a.header-text{        
+       margin-right: 15px;  
+          
+    }
+    .nav-img{
+        width: 10px;
+        height: 40px;       
+        display: block;
+        
+        
+    }
+    
+    .number{
+        display: none; 
+    }
+       
+}
+@media(max-width:768px){  
+    .header{    
+        height: 100px;
+        width: 100%;
+        padding-left: 0%;
+        background-color:transparent !important;
+        position: absolute;       
+    }
+    .wrapper{
+       width: 85%;
+        margin:0 0% 0 5%;        
+    }  
+    .header-nav{    
+        height: 100px;    
+        display: flex;
+       justify-content:inline;
+        align-items: center;
+        
+        
+    }  
+    
+    .number{
+        display: none;
+        margin-left:5%;
+    }
+    .header-text{        
+       margin-right: 0px; 
+       display:none;     
+    }
+    .nav-img{
+        width: 60px;
+        height: 29px;       
+        display: block;
+        display: flex;
+        
+    }  
+    .nav-img2{
+        margin: 0 5%;
+        display: none;
+        
+        } 
+        .nav-img3{
+            margin-left: 13px;
+            display: none;
+            
+            } 
+}
+
+@media(max-width:650px){  
+    .header{    
+        height: 100px;
+        width: 100%;
+        padding-left: 0%;
+        background-color:transparent !important;
+        position: absolute;       
+    }
+    .wrapper{
+       width: 85%;
+        margin:0 0% 0 5%;        
+    }  
+    a.header-nav{    
+        height: 100px;    
+        display: flex;
+       justify-content:inline;
+        align-items: center;
+        
+    }  
+    .number{
+        display: none;
+        margin-left:5%;
+    }
+    a.header-text{        
+       margin-right: 0px;      
+    }
+    .nav-img{
+        margin-left:3%;
+        
+      
+    }   
+}
+
+@media (max-width:768) {
+    
+}
