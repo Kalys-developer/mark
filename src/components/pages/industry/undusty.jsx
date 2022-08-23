@@ -27,7 +27,7 @@ import images6 from '../marking/icons/icons-01/03.svg'
 import images7 from '../marking/icons/icons-01/04.svg'
 import images8 from '../marking/icons/icons-01/05.svg'
 import images9 from '../marking/icons/icons-01/Vector 5.svg'
-import Servises from '../services/servises'
+ import Servises from '../services/servises'
 import images25 from '../industry/Новая папка/5.svg'
 import images26 from '../industry/Новая папка/6.svg'
 import images27 from '../industry/Новая папка/6.svg'
@@ -105,13 +105,13 @@ const Undusty = () => {
 
               <div className="container-card cart11">
                <div style={{display:"flex"}}>
-               <p className="card-text long milk" style={{width:"170px",height:""}}>Не нашли свою отрасль?<br/>
+               <p className="card-text long milk" style={{width:"155px",height:""}}>Не нашли свою отрасль?<br/>
                <br/>
                <br/>
                <br/>
                <br/>
               
-               <br/><a className="card-text11 milk" href="#">Оставить заявку</a></p>
+               <br/><a className="card-text11 long milk" href="#">Оставить заявку</a></p>
                 <img  className="card-img card11" src={znak}/>
                </div>                
               </div>            

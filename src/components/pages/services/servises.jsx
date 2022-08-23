@@ -8,9 +8,12 @@ import images15 from '../marking/icons/icons-01/4c25a15648c14763dac7f63ee753ec2a
 import images16 from '../marking/icons/icons-01/a9e6770d61ae7dcdf7b63ed5692343d2 1.svg'
 import Footer from '../../footer/footer'
 
+
 const Servises = () => {
     return (
+      
         <div>
+           
           <div className="main-container"> 
             <div>
               <h3 className="main-title">Мы всегда готовы вам помочь</h3>
